@@ -10,7 +10,7 @@ pipeline {
         stage("Create the Jenkins server") {
             steps {
                 script {
-                    dir('terraform-to-create-jenkins') {
+                    dir('terraform') {
                         sh "terraform init"
                         sh "terraform apply -auto-approve"
                     }
