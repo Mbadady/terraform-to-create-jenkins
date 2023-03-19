@@ -29,7 +29,7 @@ sudo mkdir -p $HOME/bin && sudo cp ./kubectl $HOME/bin/kubectl && export PATH=$P
 
 # install helm
 
-curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
-chmod 700 get_helm.sh
-./get_helm.sh
-sudo yum install openssl
+# curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+# chmod 700 get_helm.sh
+# ./get_helm.sh
+# sudo yum install openssl
